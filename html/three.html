@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  <meta charset="UTF-8">
+  <title>Subway Stories</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <script src="../javascript/script1.js" defer></script> <!-- Use defer for better loading -->
+</head>
+
+<body>
+  <div class="container">
+    <h1>Subway Stories</h1>
+    <p>Your subway stories. Your city. In real time.</p>
+    <button class ="refresh-button" onclick="randomPage()">↻</button>
+    
+  <div class="image-wrapper">
+    <img src="../images/map3.png">
+    <button class="play-button" onclick="document.getElementById('audio1').play()"></button>
+    <button class="play-button4" onclick="document.getElementById('audio2').play()"></button>
+    <button class="play-button5" onclick="document.getElementById('audio3').play()"></button>
+    <button class="play-button2" onclick="document.getElementById('audio4').play()"></button>
+    <button class="play-button3" onclick="document.getElementById('audio5').play()"></button>
+  </div>
+
+  <audio id="audio1" src="../audio/voice1.mp3"></audio>
+  <audio id="audio2" src="../audio/voice2.mp3"></audio>
+  <audio id="audio3" src="../audio/voice3.mp3"></audio>
+  <audio id="audio4" src="../audio/voice4.mp3"></audio>
+  <audio id="audio5" src="../audio/voice5.mp3"></audio>
+
+  </div>
+
+  <p>Find out what New Yorkers are saying. Interact with the map above.</p>
+  <p>Download the app now.</p>
+  <p>Available on the App Store and Google Playstore.</p>
+  
+</body>
+
+</html>
